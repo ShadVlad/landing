@@ -286,7 +286,7 @@ h3 {
 }
 
 .video {
-    background-image: url("/img/control.png");
+    background-image: url("../img/control.png");
     width: 817px;
     height: 433px;
     margin: 31px auto 62px auto;
@@ -306,7 +306,7 @@ h3 {
     height: 85px;
     border-radius: 50%;
     border: none;
-    background: #E3B873 url("/img/polygon.svg") no-repeat 35px center;
+    background: #E3B873 url("../img/polygon.svg") no-repeat 35px center;
     cursor: pointer;
 }
 .control-decor {
