@@ -68,6 +68,7 @@ body {
     text-transform: uppercase;
 }
 .header {
+    font-family: "Nunito Sans", sans-serif;
     background-color: black;
     
 }
@@ -83,6 +84,7 @@ body {
     display: flex;
 }
 .header-navigation-item {
+    
     margin-right: 47px;
     font-style: normal;
     font-weight: normal;
