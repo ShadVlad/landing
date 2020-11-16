@@ -384,34 +384,47 @@
         </section>
         <section class="contacts">
             <div class="container contacts-container">
-                <div class="contacts__form">
-					<h3 class="contacts__title subtitle subtitle--w">have any questions?</h3>
-					<form action="#" class="contacts-form">
-                        <div class="form-items">
-                            <div class="contacts-form-item input input--w">
-                                <label for="name">Name</label>
-                                <input type="text" name="name" placeholder="What is your name:" />
-                            </div>					    
-                            <div class="contacts-form-item input input--w">
-                                <label for="phone">Phone</label>
-                                <input type="tel" name="phone" placeholder="Your phone number:" />
+                <div class="contacts-content">
+                    <div class="contacts-form">
+                        <h3 class="contacts-form_title">have any questions?</h3>
+                        <form action="#" class="form-contacts">
+                            <div class="form-items">
+                                <div class="form-contacts-item input input--w">
+                                    <label for="name">Name</label>
+                                    <input type="text" name="name" placeholder="What is your name:" />
+                                </div>					    
+                                <div class="form-contacts-item input input--w">
+                                    <label for="phone">Phone</label>
+                                    <input type="tel" name="phone" placeholder="Your phone number:" />
+                                </div>
+                                <div class="form-contacts-item input input--w">
+                                    <label for="question">Question</label>
+                                    <input type="text" name="question" placeholder="I want to know:" />
+                                </div>
                             </div>
-                            <div class="contacts-form-item input input--w">
-                                <label for="question">Question</label>
-                                <input type="text" name="question" placeholder="I want to know:" />
+                            <div class="checkbox-contacts">
+                                <label class="label">
+                                <input type="checkbox" class="checkbox" >
+                                <span class="fake"></span>
+                                <span class="text check-text">I agree to the processing of personal data.</span>
+                                </label>
                             </div>
-                        </div>
-                        <div class="checkbox-contacts">
-                            <label class="label">
-                            <input type="checkbox" class="checkbox" >
-                            <span class="fake"></span>
-                            <span class="text check-text">I agree to the processing of personal data.</span>
-                            </label>
-                        </div>
-                        <div class="request-form-submit">
-                            <button type="submit" class="request-form-button button">Submit</button>
-                        </div>
-					</form>
+                            <div class="request-form-submit">
+                                <button type="submit" class="request-form-button button">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+				</div>
+                <div class="contacts-main">
+                    <div class="contacts-address">
+						Rostov-on-Don, Nansen St., 239 Shopping Center<br/>
+						Decorum	Tel +7 (928) 768 32 29
+					</div>
+					<div class="contacts-social">
+						<a class="contacts-icon" href="#!"><img src="img/email.svg" alt="email" /></a>
+						<a class="contacts-icon" href="#!"><img src="img/instagram.svg" alt="instagram" /></a>
+					</div>
+					<img class="contacts-map" src="img/map.jpg" alt="map" />
 				</div>
                 
                 <!-- <form action="#" class="request-form contacts-form">
@@ -444,8 +457,28 @@
                     
                 </form> -->
             </div>
+            <div class="contacts-overlay"></div>
         </section>
     </main>
-    
+    <footer class="header">
+        <div class="container header-content">
+            <div class="logo">
+                IC "Repair Design Project"
+            </div>
+            <nav>
+                <ul class="header-navigation">
+                    <li><a class="header-navigation-item" href="#">TEAM</a></li>
+                    <li><a class="header-navigation-item" href="#">HOME</a></li>
+                    <li><a class="header-navigation-item" href="#">MEASUREMENT</a></li>
+                    <li><a class="header-navigation-item" href="#">PROJECTS</a></li>
+                    <li><a class="header-navigation-item" href="#">REVIEWS</a></li>
+                    <li><a class="header-navigation-item" href="#">CONTACTS</a></li>                
+                </ul>            
+            </nav>
+            <a class="phone" href="tel:+7(928)768-32-39">+7 (928) 768-32-39</a>
+            <button class="button">Request a call</button>
+
+        </div>
+    </footer>
 </body>
 </html>

@@ -5,7 +5,8 @@ body {
 .container {
     max-width: 1256px;
     margin: 0 auto;
-    /* font-family: Nunito Sans, sans-serif; */
+    z-index: 1;
+    font-family: Nunito Sans, sans-serif;
 }
 
 .button{
@@ -212,7 +213,8 @@ body {
 }
 
 .projects-content p {
-    font-size: 13px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 14px;
     line-height: 21px;
     color: #FFFFFF;
     margin-top: 6px;
@@ -578,9 +580,7 @@ h3 {
     margin-left: 8px;
     line-height: 23px;
 }
-.checkbox-item {
-    margin: 14px 0 0 0;
-}
+
 .request-form-submit {
     text-align: right;
     padding-right: 50px;
@@ -793,42 +793,35 @@ h3 {
     height: 100%;
 }
 
-.contacts__form {
-    background: #181818;
-    padding: 34px 10px;
-    height: 445px;
-    width: 883px;
-    margin: -225px auto 50px;
-    
+.contacts {
+    background-image: url('../img/contacts-bg.jpg');
+    padding-top: 49px;
+    height: 954px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+}
+
+.contacts-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .72);
 }
 
 .contacts-form {
-    align-content: center;
-}
-.form-items {
+    background: #181818;
+    padding: 34px 10px 0px;
+    height: 445px;
+    width: 883px;
+    margin: -250px auto 50px;
     
-    width: 340px;
-    display: flex;
-    flex-basis: 50%;
 }
-
-.checkbox-contacts {
-    font-family: "Nunito Sans",
-    sans-serif;
-    font-size: 13px;
-    line-height: 180%;
-    color: #ffffff;
-    align-items: center;
-    margin: 40px;
-}
-.contacts-form-item {
-    
-    display: inline-block;
-    margin-right: 60px;
-    width: 233px;
-    color: rgba(255, 255, 255, 0.5);
-}
-.contacts__title {
+.contacts-form_title {
     font-family: Yeseva One;
     font-size: 20px;
     line-height: 28px;
@@ -839,13 +832,63 @@ h3 {
     font-style: normal;
 }
 
-.contacts-form-item input {
+.form-contacts {
+    align-content: center;
+}
+.form-items {
+    width: 340px;
+    display: flex;
+    flex-basis: 50%;
+}
+.form-contacts-item {
+
+    display: inline-block;
+    margin-right: 60px;
+    width: 233px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.form-contacts-item input {
     background-color: #181818;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15)
 }
 
-.contacts-form-item input::-webkit-input-placeholder {
+.form-contacts-item input::-webkit-input-placeholder {
     color: white;
+}
+
+.checkbox-contacts {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 13px;
+    line-height: 180%;
+    color: #ffffff;
+    align-items: center;
+    margin: 40px;
+}
+
+.contacts-address {
+    text-align: center;
+    font-family: "Yeseva One";
+    font-size: 20px;
+    line-height: 28px;
+    
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    color: #e3b873;  
+}
+
+.contacts-social {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-icon {
+    background-color: #e3b873;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 15px;
 }
 /* .contacts {
     margin: -100px 0 0 0;
