@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
 
+<body>
     <header class="header">
         <div class="container header-content">
             <div class="logo">
@@ -18,43 +20,44 @@
             <nav>
                 <ul class="header-navigation">
                     <li><a class="header-navigation-item" href="#">TEAM</a></li>
-                    <li><a class="header-navigation-item" href="#">HOME</a></li>
                     <li><a class="header-navigation-item" href="#">MEASUREMENT</a></li>
                     <li><a class="header-navigation-item" href="#">PROJECTS</a></li>
+                    <li><a class="header-navigation-item" href="#">HOME</a></li>
                     <li><a class="header-navigation-item" href="#">REVIEWS</a></li>
-                    <li><a class="header-navigation-item" href="#">CONTACTS</a></li>                
-                </ul>            
+                    <li><a class="header-navigation-item" href="#">CONTACTS</a></li>
+                </ul>
             </nav>
             <a class="phone" href="tel:+7(928)768-32-39">+7 (928) 768-32-39</a>
             <button class="button">Request a call</button>
         </div>
     </header>
+
     <main>
         <section class="hero">
             <div class="container hero-container">
-                <h1 class="title">
+                <h1 class="title title-hero">
                     Turnkey Repair in the<br>city of <span class="primary">Rostov-on-Don
                 </h1>
-                <p class="hero-text">Get ready-made turnkey repairs on time<br> with work time saving up to 45 days and 20% from<br> cost of materials
+                <p class="hero-text">Get ready-made turnkey repairs on time<br> with work time saving up to 45 days and
+                    20% from<br> cost of materials
                     due to the organization of work</p>
                 <button class="button hero-button">Calculate the cost</button>
                 <button class="button hero-button">Submit your Application</button>
-            </div>   
-            <div class="hero-overlay"></div>     
+            </div>
+            <div class="overlay hero-overlay"></div>
         </section>
         <section class="projects">
             <div class="container projects-container">
                 <ul class="projects-list">
                     <li><a class="title projects-list-item">Rostov-on-Don, Admiral</a></li>
                     <li><a class="title projects-list-item">Sochi Thieves</a></li>
-                    <li><a class="title projects-list-item">Rostov-on-Don Patriotic</a></li>                    
+                    <li><a class="title projects-list-item">Rostov-on-Don Patriotic</a></li>
                 </ul>
                 <div class="projects-content">
                     <div class="projects-content-description">
-                        <div class="projects-content-text">
-                            <h2>Completed<br>projects</h2>
-                            <p>Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction<br>market we have made happy more than 1000 families</p>
-                        </div>
+                        <h2>Completed<br>projects</h2>
+                        <p>Only a small part of the work performed by our company is presented on the site. For 14
+                            years on in the construction<br>market we have made happy more than 1000 families</p>
                         <div class="projects-items">
                             <div class="projects-item">
                                 <h3>City:</h3>
@@ -72,29 +75,27 @@
                                 <h3>Repair Cost:</h3>
                                 <p>Upon request</p>
                             </div>
-                            
                         </div>
                         <div class="projects-nav">
-                            <div class="project-nav-items">                     
-                                <img src="img/left.svg" alt="left" class="projects-arrow" >
+                            <div class="project-nav-items">
+                                <img src="../img/left.svg" alt="left" class="projects-arrow">
                                 <div class="circle"><a href="#"></a></div>
                                 <div class="circle"><a href="#"></a></div>
                                 <div class="circle"><a href="#"></a></div>
-                                <img src="img/right.svg" alt="right">
+                                <img src="../img/right.svg" alt="right">
                             </div>
-                        </div>  
-    
+                        </div>
                     </div>
-                    <img class="photo" id="photo" src="img/project1.png" alt="проект" width="679" height="482">
-                </div>   
+                    <img class="photo" id="photo" src="/img/project1.png" alt="Картинка" width="679" height="482">
+                </div>
             </div>
         </section>
         <section class="online-control">
             <div class="container">
-                <h3 class="title section-black">Online control</h3>
-                <div class="icon">
+                <h3 class="subtitle subtitle-white">Online control</h3>
+                <div class="icon icon-camera">
                     <hr class="icon-decor">
-                    <img class="icon-camera" src="img/camera.svg" alt="Камера">
+                    <img class="icon-image" src="/img/camera.svg" alt="Камера">
                     <hr class="icon-decor">
                 </div>
                 <div class="video">
@@ -103,36 +104,40 @@
                     </div>
                 </div>
                 <hr class="control-decor">
-                <p class="text control-text">At each facility, a camera is installed that broadcasts the progress of work on the clock.
-                    At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities!
+                <p class="text control-text">At each facility, a camera is installed that broadcasts the progress of
+                    work on the clock.
+                    At any time, you can go to our website and monitor the progress of work in your apartment. You can
+                    watch the live broadcast from one of our facilities!
                     <br>Leave a request below and you will receive a link to the broadcast.
-                </p> 
-                <form action="" class="form-submit">
-                    <div>
-                        <label class="form-label" for="name">Name</label><br>
-                        <input class="form-item" type="text" name="name" id="name" placeholder="What is your name:" required>
-                    </div>
-                    <div>
-                        <label class="form-label" for="phone">Phone</label><br>
-                        <input class="form-item" type="phone" name="phone" id="phone" placeholder="Your phone number:"required>
-                    </div>
-                    <button class="button form-button">Submit</button>                     
-                </form>   
-                <div class="first-checkbox">
-                    <label class="label">
-                        <input type="checkbox" class="checkbox" >
-                        <span class="fake"></span>
-                        <span class="text">I agree to the processing of personal data.</span>
-                    </label>
+                </p>
+            </div>
+            <form action="#" class="form-submit">
+                <div class="input input-control">
+                    <label class="form-label" for="name">Name</label><br>
+                    <input class="form-item" type="text" name="name" id="name" placeholder="What is your name:"
+                        required>
                 </div>
+                <div class="input input-control">
+                    <label class="form-label" for="phone">Phone</label><br>
+                    <input class="form-item" type="phone" name="phone" id="phone" placeholder="Your phone number:"
+                        required>
+                </div>
+                <button class="button form-button">Submit</button>
+            </form>
+            <div class="checkbox-control">
+                <label class="label">
+                    <input type="checkbox" class="checkbox">
+                    <span class="fake"></span>
+                    <span class="text">I agree to the processing of personal data.</span>
+                </label>
             </div>
         </section>
         <section class="types">
             <div class="container">
-                <h3 class="title section-white">Types of repair</h3>
-                <div class="icon">
+                <h3 class="subtitle subtitle-types">TYPES OF REPAIR</h3>
+                <div class="icon icon-tools">
                     <hr class="icon-decor">
-                    <img class="icon-tools" src="img/tools.svg" alt="инструменты">
+                    <img class="icon-image" src="img/tools.svg" alt="инструменты">
                     <hr class="icon-decor">
                 </div>
                 <div class="types-items">
@@ -153,7 +158,7 @@
                     </div>
                     <div class="types-item" style="background-image: url('img/image2.jpg')">
                         <div class="types-content">
-                            <h3>Overhaul</h3>
+                            <h3>Redecorating</h3>
                             <ul class="types-list">
                                 <li class="types-list-item">Dismantling of old coatings</li>
                                 <li class="types-list-item">Wallpapering</li>
@@ -164,13 +169,13 @@
                                 <li class="types-list-item">Replacing doors</li>
                             </ul>
                         </div>
-                        <div class="types-price">from 1800 rub / m2</div>
+                        <div class="types-price">from 900 rub / m2</div>
                     </div>
                     <div class="types-item" style="background-image: url('img/image3.jpg')">
                         <div class="types-content">
-                            <h3>Designer Repair</h3>
+                            <h3>Redecorating</h3>
                             <ul class="types-list">
-                                <li class="repairtypes-list-item">Dismantling of old coatings</li>
+                                <li class="types-list-item">Dismantling of old coatings</li>
                                 <li class="types-list-item">Wallpapering</li>
                                 <li class="types-list-item">Painting walls and ceilings</li>
                                 <li class="types-list-item">Laying flooring</li>
@@ -179,14 +184,9 @@
                                 <li class="types-list-item">Replacing doors</li>
                             </ul>
                         </div>
-                        <div class="types-price">from 4000 rub / m2</div>
+                        <div class="types-price">from 900 rub / m2</div>
                     </div>
                 </div>
-                
-            </div>
-        </section>
-        <section class="request">
-            <div class="container-request">
                 <div class="request-content">
                     <div class="request-column">
                         <ul class="request-items">
@@ -205,41 +205,46 @@
                             </li>
                             <li class="request-item">
                                 <div class="request-item-number">04</div>
-                                <p class="request-item-text">Get a cost estimate and<br />the timing of your future repairs</p>
+                                <p class="request-item-text">Get a cost estimate and<br />the timing of your future
+                                    repairs</p>
                             </li>
                         </ul>
                     </div>
                     <div class="request-column">
                         <form action="#" class="request-form">
-                            <div class="request-form-title text">Leave a request for free departure of the measurer</div>
-                            <div class="request-form-item">
+                            <div class="request-form-title">Leave a request for free departure of the measurer
+                            </div>
+                            <div class="input request-form-item">
                                 <label class="form-label" for="name">Name</label><br>
-                                <input class="form-item" type="text" name="name" id="name-request" placeholder="What is your name:" required>
+                                <input class="form-input" type="text" name="name" id="name-request"
+                                    placeholder="What is your name:" required>
                             </div>
-                            <div class="request-form-item">
+                            <div class="input request-form-item">
                                 <label class="form-label" for="phone">Phone</label><br>
-                                <input class="form-item" type="phone" name="phone" id="phone-request" placeholder="Your phone number:"required>
+                                <input class="form-item" type="phone" name="phone" id="phone-request"
+                                    placeholder="Your phone number:" required>
                             </div>
-                            <div class="request-form-item">
+                            <div class="input request-form-item">
                                 <label class="form-label" for="email">Email</label><br>
-                                <input class="form-item" type="email" name="email" id="email" placeholder="Your email:"required>
+                                <input class="form-item" type="email" name="email" id="email" placeholder="Your email:"
+                                    required>
                             </div>
-                            
+
                             <div class="checkbox-request">
                                 <label class="label">
-                                    <input type="checkbox" class="checkbox" >
+                                    <input type="checkbox" class="checkbox">
                                     <span class="fake"></span>
                                     <span class="text check-text">I agree to the processing of personal data.</span>
                                 </label>
                             </div>
                             <div class="request-form-submit">
-                                <button type="submit" class="request-form-button button">Call the measures</button>
+                                <button type="submit" class="form-button button">Call the measures</button>
                             </div>
                         </form>
                         <div class="request-discount">
                             <div class="request-discount-icon">
                                 <img class="icon-piggy" src="img/piggy.svg" alt="Копилка">
-                                
+
                             </div>
                             <div class="request-discount-text">
                                 <p>Help save 10 - 20% of the<br> cost of materials</p>
@@ -252,11 +257,8 @@
         <section class="fantasies">
             <div class="container fantasies-container">
                 <div class="fantasies-text-columns">
-                    <h2 class="fantasies-h2">We realize your<br>wildest fantasies</h2>
-                    <!-- <div class="projects-mobile dreams-mobile">
-                        <div class="projects-mobile__item item_left"><a href="#"></a></div>
-                        <div class="projects-mobile__item item_right"><a href="#"></a></div>
-                    </div> -->
+                    <h1 class="title title-fantasies">We realize your<br>wildest fantasies</h1>
+
                     <ul class="fantasies-styles">
                         <li class="fantasie-styles_item"><a href="#">American classic</a></li>
                         <li class="fantasie-styles_item"><a href="#">Empire</a></li>
@@ -278,16 +280,17 @@
                 <div class="fantasies-images-2">
                     <div class="fantasies-images-2_item-1"></div>
                     <div class="fantasies-images-2_item-2"></div>
-                </div>                              
+                </div>
             </div>
-            <div class="fantasies-overlay"></div>
+
+            <div class="overlay fantasies-overlay"></div>
         </section>
         <section class="clients">
-            <div class="container clients-container" >
-                <h3 class="title section-white">OUR CLIENTS</h3>
-                <div class="icon">
+            <div class="container clients-container">
+                <h1 class="subtitle subtitle-clients">our clients</h1>
+                <div class="icon icon-clients">
                     <hr class="icon-decor">
-                    <img class="icon-tools" src="img/clients.svg" alt="клиенты">
+                    <img class="icon-image" src="/img/clients.svg" alt="Камера">
                     <hr class="icon-decor">
                 </div>
                 <p class="text control-text">80% of our customers recommend us to their <br>friends and family.</p>
@@ -378,86 +381,56 @@
                                 </div>
                             </div>
                         </div>
-                    </div>                
+                    </div>
                 </div>
             </div>
         </section>
         <section class="contacts">
             <div class="container contacts-container">
                 <div class="contacts-content">
-                    <div class="contacts-form">
-                        <h3 class="contacts-form_title">have any questions?</h3>
-                        <form action="#" class="form-contacts">
-                            <div class="form-items">
-                                <div class="form-contacts-item input input--w">
-                                    <label for="name">Name</label>
-                                    <input type="text" name="name" placeholder="What is your name:" />
-                                </div>					    
-                                <div class="form-contacts-item input input--w">
-                                    <label for="phone">Phone</label>
-                                    <input type="tel" name="phone" placeholder="Your phone number:" />
-                                </div>
-                                <div class="form-contacts-item input input--w">
-                                    <label for="question">Question</label>
-                                    <input type="text" name="question" placeholder="I want to know:" />
-                                </div>
+                    <form action="#" class="form-contacts">
+                        <h3 class="subtitle subtitle-white">have any questions?</h3>
+                        <div class="form-items">
+                            <div class="input form-contacts-item">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" placeholder="What is your name:" required>
                             </div>
-                            <div class="checkbox-contacts">
-                                <label class="label">
-                                <input type="checkbox" class="checkbox" >
-                                <span class="fake"></span>
-                                <span class="text check-text">I agree to the processing of personal data.</span>
-                                </label>
+                            <div class="input form-contacts-item">
+                                <label for="phone">Phone</label>
+                                <input type="tel" name="phone" placeholder="Your phone number:" required>
                             </div>
-                            <div class="request-form-submit">
-                                <button type="submit" class="request-form-button button">Submit</button>
+                            <div class="input form-contacts-item">
+                                <label for="question">Question</label>
+                                <input type="text" name="question" placeholder="I want to know:" required>
                             </div>
-                        </form>
-                    </div>
-				</div>
-                <div class="contacts-main">
-                    <div class="contacts-address">
-						Rostov-on-Don, Nansen St., 239 Shopping Center<br/>
-						Decorum	Tel +7 (928) 768 32 29
-					</div>
-					<div class="contacts-social">
-						<a class="contacts-icon" href="#!"><img src="img/email.svg" alt="email" /></a>
-						<a class="contacts-icon" href="#!"><img src="img/instagram.svg" alt="instagram" /></a>
-					</div>
-					<img class="contacts-map" src="img/map.jpg" alt="map" />
-				</div>
-                
-                <!-- <form action="#" class="request-form contacts-form">
-                    <div class="request-form-title text">Have any questions?</div>
-                    <div class="questions-form">
-                        <div class="request-form-item">
-                            <label class="form-label" for="name">Name</label><br>
-                            <input class="form-item" type="text" name="name" id="name-questions" placeholder="What is your name:" required>
                         </div>
-                        <div class="request-form-item">
-                            <label class="form-label" for="phone">Phone</label><br>
-                            <input class="form-item" type="phone" name="phone" id="phone-questions" placeholder="Your phonenumber:"required>
-                        </div>
-                        <div class="request-form-item">
-                            <label class="form-label" for="questions">Question</label><br>
-                            <input class="form-item" type="text" name="email" id="questions" placeholder="I want to know:"required>
-                        </div>
-                        
-                        <div class="checkbox-request">
-                            <label class="label">
-                                <input type="checkbox" class="checkbox" >
+                        <div class="checkbox-contacts">
+                            <label class="label-check">
+                                <input type="checkbox" class="checkbox">
                                 <span class="fake"></span>
                                 <span class="text check-text">I agree to the processing of personal data.</span>
                             </label>
                         </div>
-                        <div class="request-form-submit">
-                            <button type="submit" class="request-form-button button">submit</button>
+                        <div class="contacts-form-submit">
+                            <button type="submit" class="request-form-button button">Submit</button>
                         </div>
+                    </form>
+                </div>
+                <div class="contacts-main">
+                    <div class="contacts-address">
+                        Rostov-on-Don, Nansen St., 239 Shopping Center<br />
+                        Decorum Tel +7 (928) 768 32 29
                     </div>
-                    
-                </form> -->
+                    <div class="contacts-social">
+                        <a class="contacts-icon" href="#!"><img src="img/email.svg" alt="email" /></a>
+                        <a class="contacts-icon" href="#!"><img src="img/instagram.svg" alt="instagram" /></a>
+                    </div>
+                    <img class="contacts-map" src="img/map.jpg" alt="map" />
+                </div>
+
             </div>
-            <div class="contacts-overlay"></div>
+
+            <div class="overlay contacts-overlay"></div>
         </section>
     </main>
     <footer class="header">
@@ -472,8 +445,8 @@
                     <li><a class="header-navigation-item" href="#">MEASUREMENT</a></li>
                     <li><a class="header-navigation-item" href="#">PROJECTS</a></li>
                     <li><a class="header-navigation-item" href="#">REVIEWS</a></li>
-                    <li><a class="header-navigation-item" href="#">CONTACTS</a></li>                
-                </ul>            
+                    <li><a class="header-navigation-item" href="#">CONTACTS</a></li>
+                </ul>
             </nav>
             <a class="phone" href="tel:+7(928)768-32-39">+7 (928) 768-32-39</a>
             <button class="button">Request a call</button>
@@ -481,4 +454,5 @@
         </div>
     </footer>
 </body>
+
 </html>
