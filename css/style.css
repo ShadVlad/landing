@@ -668,7 +668,7 @@ p {
 .fantasies {
     display: block;
     height: 864px;
-    background: url(../img/image5.jpg) no-repeat;
+    background: url('../img/image5.jpg') no-repeat;
     background-size: cover;
     margin-bottom: 110px;
     position: relative;
@@ -734,11 +734,11 @@ p {
     margin-bottom: 40px;
     width: 354px;
     height: 560px;
-    background-image: url(../img/fantasie1.jpg);
+    background-image: url('../img/fantasie1.jpg');
 }
 
 .fantasies-images-1_item-2 {
-    background-image: url(../img/fantasie2.jpg);
+    background-image: url('../img/fantasie2.jpg');
     height: 350px;
     width: 354px;
 }
@@ -752,12 +752,12 @@ p {
 .fantasies-images-2_item-1 {
     margin-bottom: 40px;
     height: 275px;
-    background-image: url(../img/fantasie3.jpg);
+    background-image: url('../img/fantasie3.jpg');
 }
 
 .fantasies-images-2_item-2 {
     height: 625px;
-    background-image: url(../img/fantasie4.jpg);
+    background-image: url('../img/fantasie4.jpg');
 }
 
 .clients {
@@ -901,6 +901,10 @@ p {
 .request-form-button {
     width: 200px;
     margin-top: 50px;
+}
+
+.contacts-map-adaptive {
+    display: none;
 }
 
 .contacts-address {
@@ -1333,15 +1337,16 @@ p {
     }
 
     .contacts-map-adaptive {
+        display: initial;
         text-align: center;
         width: 340px;
-        margin-top: 100px;
+        margin-top: 110px;
         height: auto;
     }
 
     .contacts-address {
         width: 92%;
-        margin-top: 100px;
+        margin-top: 60px;
         font-size: 18px;
         line-height: 138.6%;
     }
