@@ -1128,6 +1128,7 @@ p {
         border: none;
         background: #E3B873 url("../img/polygon1.svg") no-repeat 15px center;
         cursor: pointer;
+        /*box-shadow: 0 5px 30px rgba(227, 184, 115, 0.2);*/
     }
 
     .container-online-control {
