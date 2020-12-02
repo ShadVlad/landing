@@ -17,6 +17,7 @@ body {
 
 .button {
     background: #E3B873;
+    border: none;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 2px;
     outline: 0;
@@ -28,6 +29,7 @@ body {
     font-weight: normal;
     font-size: 11px;
     line-height: 15px;
+    cursor: pointer;
 }
 
 input {
@@ -414,6 +416,7 @@ p {
     height: 51px;
     border-color: burlywood;
     box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+    cursor: pointer;
 }
 
 .checkbox {
@@ -523,6 +526,7 @@ p {
 }
 
 .request-items {
+
     text-align: left;
     font-size: 14px;
     line-height: 19px;
@@ -532,6 +536,7 @@ p {
 }
 
 .request-item {
+    display: flex;
     align-items: center;
     margin-bottom: 87px;
 }
@@ -623,6 +628,7 @@ p {
     font-size: 14px;
     margin-left: 8px;
     line-height: 23px;
+    color: #ffffff;
 }
 
 .request-form-submit {
@@ -997,7 +1003,7 @@ p {
         font-size: 14px;
         line-height: 19px;
         margin: 0 0 34px;
-        width: 399px;
+
         height: 94px;
     }
 
