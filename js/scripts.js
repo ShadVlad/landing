@@ -51,9 +51,9 @@ prev.addEventListener("click", () => {
   }
   setEntity(currentIndex);
   circles.forEach((circle) => {
-    circle.className = "circle";
+    circle.classList.remove("active");
   });
-  circles[currentIndex].className += " active";
+  circles[currentIndex].classList.add("active");
 });
 
 next.addEventListener("click", () => {
@@ -64,9 +64,9 @@ next.addEventListener("click", () => {
   }
   setEntity(currentIndex);
   circles.forEach((circle) => {
-    circle.className = "circle";
+    circle.classList.remove("active");
   });
-  circles[currentIndex].className += " active";
+  circles[currentIndex].classList.add("active");
 });
 
 // Clicking on links
@@ -78,9 +78,9 @@ items.forEach((item, i) => {
     currentIndex = i;
     setEntity(currentIndex);
     circles.forEach((circle) => {
-      circle.className = "circle";
+      circle.classList.remove("active");
     });
-    circles[currentIndex].className += " active";
+    circles[currentIndex].classList.add("active");
   });
 });
 
@@ -89,9 +89,9 @@ items.forEach((item, i) => {
 circles.forEach((circle, i) => {
   circle.addEventListener("click", () => {
     circles.forEach((circle) => {
-      circle.className = "circle";
+      circle.classList.remove("active");
     });
-    circles[i].className += " active";
+    circles[i].classList.add("active");
     currentIndex = i;
     setEntity(currentIndex);
   });
